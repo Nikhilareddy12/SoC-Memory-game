@@ -11,6 +11,18 @@
 
     <body>
       <header>
+          a:link{
+          color:blue;
+          }
+          a:hover{
+          color:red;
+          }
+          a:active{
+          color:green;
+          }
+          a:visit{
+          color:purple;
+          }
       <h1 style="font-family:serif;">Basics To Web Development<h1>
           <nav id="navbar">
             <a href="#introduction">Introduction</a> 
@@ -93,6 +105,10 @@
                     </section>   
                     <section id="TABLE">
                         <h2>TABLE</h2>
+                        table,th,td{
+                        border:1px solid black;
+                        border-collapse:collapse;
+                        }
                         <table style="width:100%">
                             <tr style="height:150px">
                                 <th>Category</th>
@@ -129,7 +145,11 @@
                          <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_self">Open in same tab</a> <hr>
                          <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_parent">Open in parent frame</a> <hr>
                          <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_top">Open in full body of the window</a> <hr>
-
+                         .background-image{
+    background-image:url("https://as1.ftcdn.net/v2/jpg/04/71/08/46/1000_F_471084675_nr6Lyb8Dna5uP7VEe7K4T6GLEWuif26w.jpg");
+    background-size: cover;
+    background-position:center;
+}
                          <div class="background-image">
                             <p>background image</p>
                             </div>
