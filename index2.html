@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Assignment-1</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+      <header>
+      <h1 style="font-family:serif;">Basics To Web Development<h1>
+          <nav id="navbar">
+            <a href="#introduction">Introduction</a> 
+            <a href="#HTML" class="nav-link" onclick="highlightNav(this)">HTML</a> 
+            <a href="#CSS" class="nav-link" onclick="highlightNav(this)">CSS</a>
+            <a href="#TABLE" class="nav-link" onclick="highlightNav(this)">TABLE</a>
+            </nav>
+            </header>
+            <section text-align:"center" id="introduction">
+                <h2>INTRODUCTION</h2>
+                <h3>Observe Icon, Header and Navbar</h3>
+                    <h4>1.Introduction</h4>
+                    <ul>
+                        <li>Basic Concepts</li>
+                        <li>History of HTML</li>
+                        </ul> 
+                    <h4>2.Structures</h4>
+                    <ul>
+                        <li>Elements</li>
+                        <li>Tags</li>
+                        </ul>
+                    <h4>3.Attributes</h4>
+                    <ul>
+                        <li>Global attributes</li>
+                        <li>Space attributes</li>
+                        </ul>
+                        <p>Web development refers to the creating, building, and maintaining of websites</p>
+                        <img src="https://creativeanimation.org/images/courses/web-development.jpg" alt="Web Development" width="500" height="300">
+
+                </section>
+
+                <section id="HTML">
+                    <h2>HTML</h2>
+                    <abbr title="Hypertext Marup Language" onclick="toggleHTML()">HTML</abbr>
+                    <p id="html-text" style="display:none;">HTML stands for Hypertext Markup Language.</p>
+                    <p>HTML is a standard language for creating web pages.HTML describes the structure of a webpage using markup.HTML elements are building blocks of html pages.</p>
+
+                    <script>
+                        function toggleHtml(){
+                        var htmlText = document.getElementById("html-text");
+                        if(htmlText.style.display = "none"){
+                        htmlText.style.display = "block";
+                        }
+                        else{
+                        htmlText.style.display = "none";}
+                        }
+                        </script>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5K08rKxUEHZsgxTHElnQc6bFEmuVzD6FUg&s" alt="HTML" width="500" height="300">
+                </section>
+                <section id="CSS">
+                    <h2>CSS</h2>
+                    <p>CSS stands for “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML)</p>
+                    <p> Here are some clickable images</p>
+                    <a href="https://assets-global.website-files.com/615af81f65d1ab72d2969269/62efdf9840dca733692cdd48_web%20dev%20basics.jpg">
+                    <img src="https://assets-global.website-files.com/615af81f65d1ab72d2969269/62efdf9840dca733692cdd48_web%20dev%20basics.jpg" alt="Clickable Image" width="500" height="350">
+                    </a>
+                    <h4>Image Map</h4>
+                    <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190227165729/area11.png"
+         alt="" width="300"
+         height="119" usemap="#shapemap" />
+ 
+    <map name="shapemap">
+        <!-- area tag contained image. -->
+        <area shape="poly" coords="59, 31, 28, 83, 91, 83"
+              href=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190227165802/area2.png"
+              alt="Triangle">
+ 
+        <area shape="circle" coords="155, 56, 26"
+              href=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190227165934/area3.png"
+              alt="Circle">
+ 
+        <area shape="rect" coords="224, 30, 276, 82"
+              href=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190227170021/area4.png"
+              alt="Square">
+    </map>
+                    </section>   
+                    <section id="TABLE">
+                        <h2>TABLE</h2>
+                        <table style="width:100%">
+                            <tr style="height:150px">
+                                <th>Category</th>
+                                <th style="width:70%" colspan="3">Item Details</th>
+                                <th>Price</th>
+                                </tr>
+                            <tr>
+                                <td>Electronics</td>
+                                <td>Laptop</td>
+                                <td>High performance Laptop for gaming and Work</td>
+                                <td>1</td>
+                                <td>$1200</td>
+                                </tr>
+                            <tr>
+                                <td>Furniture</td>
+                                <td> Desk</td>
+                                <td>Ergonomic office desk</td>
+                                <td>1</td>
+                                <td>$250</td>
+                                </tr>
+                            <tr>
+                                <td>Stationary</td>
+                                <td>Notebooks</td>
+                                <td>A4 size, 100pages</td>
+                                <td>5</td>
+                                <td>$15</td>
+                                </tr> 
+                                </table>
+                                </section>
+                                <h3>LOGO</h3>
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F16044142401526878%2F&psig=AOvVaw3KTFZEKeXhf7p4YHMHZP5U&ust=1717500964067000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjVreyrv4YDFQAAAAAdAAAAABAE" alt="logo"> <br>
+
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_blank">Open in new tab</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_self">Open in same tab</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_parent">Open in parent frame</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_top">Open in full body of the window</a> <hr>
+
+                         <div class="background-image">
+                            <p>background image</p>
+                            </div>
+
+
+
+
+
+        
+    </body>
+
+</html>
