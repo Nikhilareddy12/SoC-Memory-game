@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+body{
+font-family:courier;
+margin: 0;
+}
+header{
+background-color:#9933CC;
+color:white;
+padding: 5px;
+align-items:center;
+}
+#navbar{
+display: flex;
+gap: 5px;
+}
+.nav-link{
+color: white;
+text-decoration: none;
+}
+.nav-link.active{
+color:green;
+}
+section{
+padding: 15px;
+}
+abbr{
+cursor:pointer;
+border-bottom:1px dashed black;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+table,th,td{
+border:1px solid black;
+}
+th,td{
+padding: 10px;
+text-align:center;
+}
+#background-section{
+background-image: url('background-img');
+background-size: cover;
+color:black;
+}
+<head>
+<title>Introduction To Webdevelopment</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav id="navbar">
+<a href="#introduction" class="nav-link" onclick="highlightNav(this)">Intoduction to WebDevelopment</a>
+<a href="#HTML" class="nav-link" onclick="highlightNav(this)">HTML</a>
+<a href="#CSS" class="nav-link" onclick="highlightNav(this)">CSS</a>
+<a href="#Table" class="nav-link" onclick="highlightNav(this)">Table</a>
+</nav>
+</header>
+<section id="introduction">
+<h2>INTRODUCTION</h2>
+<p>Clickable images below:</p>
+<a href="https://www.example.com" target="_blank"><img src="example(a).jpg" alt="Example(a)></a>
+<a href="https://www.example.com" target="_self"><img src="example(b).jpg" alt="Example(b)></a>
+</section>
+<section id="HTML">
+<h2>HTML</h2>
+<p>Abbreviation <abbr title="HYPER TEXT MARKUP LANGUAGE" onclick="showAbbrText()">HTML</abbr>is Hyper text markup language.</p>
+</section>
+<section id="CSS">
+<h2>CSS</h2>
+<p>Clickable images below:</p>
+<a href="https://www.example.com"><img src="example(c).jpg" alt="Example(c)></a>
+<a href="https://www.example.com"><img src="example(d).jpg" alt="Example(d)></a>
+</section>
+<section id="Table">
+<h2>Table</h2>
+<table>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+</tr>
+<tr>
+<td>Data1</td>
+<td>Data2</td>
+</tr>
+<tr>
+<td>Data3</td>
+<td>Data4</td>
+</tr>
+</table>
+</section>
+<section id="background-section">
+<h2>Background</h2>
+<p>THis is a background image</p>
+</section>
+</body>
+</html>
