@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+      <header>
+          <nav id="navbar">
+            <a href="#introduction">Introduction to Web Development</a> <hr>
+            <a href="#HTML" class="nav-link" onclick="highlightNav(this)">HTML</a> <hr>
+            <a href="#CSS" class="nav-link" onclick="highlightNav(this)">CSS</a> <hr>
+            <a href="#TABLE" class="nav-link" onclick="highlightNav(this)">TABLE</a> <hr>
+            </nav>
+            </header>
+            <section id="introduction">
+                <h2>INTRODUCTION</h2>
+                <p>Here are some clicking images below:</p>
+                <a href="https://cdn.pixabay.com/photo/2014/12/06/16/52/smiley-559124_640.png">
+                <img src="https://cdn.pixabay.com/photo/2014/12/06/16/52/smiley-559124_640.png" alt="Clicking Image">
+                </a>
+                </section>
+
+                <section id="HTML">
+                    <h2>HTML</h2>
+                    <abbr title="Hypertext Marup Language" onclick="toggleHTML()">HTML</abbr>
+                    <p id="html-text" style="display:none;">HTML stands for Hypertext Markup Language.</p>
+                    <script>
+                        function toggleHtml(){
+                        var htmlText = document.getElementById("html-text");
+                        if(htmlText.style.display = "none"){
+                        htmlText.style.display = "block";
+                        }
+                        else{
+                        htmlText.style.display = "none";}
+                        }
+                        </script>
+                </section>
+                <section id="CSS">
+                    <h2>CSS</h2>
+                    <p> Here are some clickable images</p>
+                    <a href="https://cdn.pixabay.com/photo/2014/12/06/16/52/smiley-559124_640.png">
+                    <img src="https://cdn.pixabay.com/photo/2014/12/06/16/52/smiley-559124_640.png" alt="Clickable Image">
+                    </a>
+                    </section>   
+                    <section id="TABLE">
+                        <h2>TABLE</h2>
+                        <table style="width:100%">
+                            <tr style="height:150px">
+                                <th>Category</th>
+                                <th style="width:70%" colspan="3">Item Details</th>
+                                <th>Price</th>
+                                </tr>
+                            <tr>
+                                <td>Electronics</td>
+                                <td>Laptop</td>
+                                <td>High performance Laptop for gaming and Work</td>
+                                <td>1</td>
+                                <td>$1200</td>
+                                </tr>
+                            <tr>
+                                <td>Furniture</td>
+                                <td> Desk</td>
+                                <td>Ergonomic office desk</td>
+                                <td>1</td>
+                                <td>$250</td>
+                                </tr>
+                            <tr>
+                                <td>Stationary</td>
+                                <td>Notebooks</td>
+                                <td>A4 size, 100pages</td>
+                                <td>5</td>
+                                <td>$15</td>
+                                </tr> 
+                                </table>
+                                </section>
+                                <h3>LOGO</h3>
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F16044142401526878%2F&psig=AOvVaw3KTFZEKeXhf7p4YHMHZP5U&ust=1717500964067000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjVreyrv4YDFQAAAAAdAAAAABAE" alt="logo"> <br>
+
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_blank">Open in new tab</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_self">Open in same tab</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_parent">Open in parent frame</a> <hr>
+                         <a href="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" target="_top">Open in full body of the window</a> <hr>
+
+                         <div class="background-image">
+                            <p>background image</p>
+                            </div>
+
+
+
+
+
+        
+    </body>
+
+</html>
